@@ -15,7 +15,7 @@ Soy estudiante de **Ingeniería Civil Informática** en la Universidad Andrés B
 
 
 
-> Puedes ver el sitio desplegado en: [https://mi-portfolio.netlify.app](https://mi-portfolio.netlify.app) 
+> Puedes ver el sitio desplegado en: [https://mi-portfolio.netlify.app](https://bright-choux-35485b.netlify.app/#welcome-section) 
 ## 📬 Contacto
 
 - 📸 [Instagram](https://instagram.com/paaull09_/)
