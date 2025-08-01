@@ -173,8 +173,9 @@ body.loaded {
   padding-top: 80px;
   text-align: center;
   background-color: #2a9d8f;
-  height: 600px;
+  height: auto;
   overflow: hidden;
+  padding-bottom: 3rem;
 }
 
 .work-title {
@@ -232,7 +233,7 @@ body.loaded {
   padding-top: 80px;
   text-align: center;
   background-color: #669bbc;
-  height: 600px;
+  height: auto;
 }
 
 .contact-title {
@@ -398,3 +399,92 @@ footer {
   margin-top: 1rem;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
+
+
+
+/* NAV BAR ACTUALIZADA PARA DISPOSITIVOS MAS PEQUEÑOS */
+
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .nav-bar nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-bar nav ul {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0;
+  }
+
+  .nav-bar nav ul li a {
+    font-size: 18px;
+  }
+
+  .logo {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
+  .title {
+    
+    font-size: 28px;
+    padding-top: 2rem;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    padding-top: 0.5rem;
+  }
+
+  .container {
+    padding: 1.5rem;
+  }
+
+  .sobre-mi {
+    font-size: 1rem;
+  }
+
+  .skills-icons {
+    gap: 1rem;
+  }
+
+  .skill {
+    font-size: 16px;
+  }
+  .conocimientos {
+    font-size: 20px;
+  }
+  .habilidades {
+    font-size: 20px;
+  }
+
+  .contact-title {
+    font-size: 28px;
+
+  }
+
+  .contact-subtitle {
+    font-size: 18px;
+  }
+
+  .social-icons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .social-link {
+    font-size: 16px;
+  }
+
+  .social-link img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+
